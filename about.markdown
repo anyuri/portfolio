@@ -78,7 +78,7 @@ permalink: /about/
         </ul>
     </div>
     <div class="flex-1">
-        <img class="ml-auto mr-auto" src="{{ '/assets/images/device.gif' | relative_url }}">
+        <img class="ml-auto mr-auto" src="{{ '/assets/images/device_mockup.gif' | relative_url }}">
     </div>
 </div>
 
