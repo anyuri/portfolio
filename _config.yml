@@ -22,8 +22,8 @@ title: Portfolio by YuriAn
 email: dueidy88@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Personal portfolio
-baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/portfolio' # the subpath of your site, e.g. /blog
+url: 'https://anyuri.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 github_username: anyuri
 linkedin_username: Linkedin
 # email_username: Email
