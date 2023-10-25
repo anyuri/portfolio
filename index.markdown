@@ -33,7 +33,7 @@ layout: page
             <p class="font-normal text-base text-zinc-500 ">Because I find joy in my work, I'm naturally driven and proactive in dedicating myself to causes I believe in. I actively pursue limitless creativity and seek collaboration with other passionate people to contribute to making the world a happier place.
             </p>
         </div>
-        <a class="bg-indigo-500 text-white px-4 py-2.5 rounded-md w-auto mr-auto mt-12" href="/About">More about me</a>
+        <a class="bg-indigo-500 text-white px-4 py-2.5 rounded-md w-auto mr-auto mt-12" href="{{ '/About' | relative_url }}">More about me</a>
     </div>
 </div>
 
@@ -48,7 +48,7 @@ layout: page
             <h5 class="uppercase text-indigo-500 text-sm font-semibold mb-6 ">Branding and IOS app design</h5>
             <h2 class="text-4xl font-extrabold mb-6">Flower catalogue app</h2>
             <p class="font-normal text-base text-zinc-500 pr-8 mb-6">Build a flower catalog app for a trendy flower shop, enabling customers to easily find the perfect floral products on the app and have them delivered.</p>
-            <a class="bg-indigo-500 text-white px-4 py-2.5 rounded-md inline-block" href="/Work">See case study</a>
+            <a class="bg-indigo-500 text-white px-4 py-2.5 rounded-md inline-block" href="{{ '/Work' | relative_url }}">See case study</a>
         </div>
         <div class="flex-1">
             <img class="ml-auto" src="{{ '/assets/images/iphone.png' | relative_url }}">
