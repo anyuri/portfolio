@@ -51,7 +51,7 @@ layout: page
             <a class="bg-indigo-500 text-white px-4 py-2.5 rounded-md inline-block" href="/Work">See case study</a>
         </div>
         <div class="flex-1">
-            <img class="ml-auto" src="{{ '/assets/images/iphone.png' | absolute_path }}">
+            <img class="ml-auto" src="{{ '/assets/images/iphone.png' | relative_url }}">
         </div>
     </div>
 </div>

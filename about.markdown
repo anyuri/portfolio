@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div class="container mx-auto text-zinc-900 flex flex-wrap mt-16 justify-between gap-x-8">
-    <img class="flex-1 max-h-[450px] max-w-[593px] mb-12" src="{{ '/assets/images/profileimage.png' | absolute_path }}">
+    <img class="flex-1 max-h-[450px] max-w-[593px] mb-12" src="{{ '/assets/images/profileimage.png' | relative_url }}">
     <div class="flex-1 mb-12">
         <h5 class="uppercase text-indigo-500 text-sm font-semibold mb-5 ">A little about me</h5>
         <h2 class="text-4xl font-normal font-calistoga mb-5">Hi, I am Yuri!</h2>
@@ -78,7 +78,7 @@ permalink: /about/
         </ul>
     </div>
     <div class="flex-1">
-        <img class="ml-auto mr-auto" src="{{ '/assets/images/device.gif' | absolute_path }}">
+        <img class="ml-auto mr-auto" src="{{ '/assets/images/device.gif' | relative_url }}">
     </div>
 </div>
 
@@ -105,5 +105,5 @@ permalink: /about/
 
 <div class="flex flex auto items-center justify-center my-20 ">
 <a class="text-indigo-500 text-3xl font-semibold mr-5" href="https://drive.google.com/file/d/1T2jMtLH8exX7HRJ5Ga6UlGmx3gtDgbH1/view?usp=share_link" target="”_blank”">Download full resume</a>
-<a href="https://drive.google.com/file/d/1T2jMtLH8exX7HRJ5Ga6UlGmx3gtDgbH1/view?usp=share_link" target="”_blank”"><img class="ml-auto mr-auto" src="{{ '/assets/images/download.svg' | absolute_path }}"></a>
+<a href="https://drive.google.com/file/d/1T2jMtLH8exX7HRJ5Ga6UlGmx3gtDgbH1/view?usp=share_link" target="”_blank”"><img class="ml-auto mr-auto" src="{{ '/assets/images/download.svg' | relative_url }}"></a>
 </div>
