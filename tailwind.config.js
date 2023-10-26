@@ -10,6 +10,9 @@ module.exports = {
 		'./*.html',
 	],
 	theme: {
+		container: {
+			padding: '2rem',
+		},
 		extend: {
 			screens: {
 				xl: '1218px',

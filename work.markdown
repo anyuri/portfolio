@@ -5,7 +5,7 @@ permalink: /work/
 ---
 
 <div class="bg-orange-50 py-20">
-    <div class="container mx-auto text-zinc-900 flex flex-row items-center">
+    <div class="container grid md:grid-cols-2 mx-auto text-zinc-900 items-center">
         <div class="flex-1">
             <h5 class="uppercase text-indigo-500 text-sm font-semibold mb-6 ">Branding and ios app design</h5>
             <h2 class="text-6xl font-extrabold mb-10">Flower catalogue app</h2>
@@ -61,7 +61,7 @@ permalink: /work/
         <h3 class="text-lg text-indigo-500 font-medium mb-2">Pain point 1</h3>
         <h2 class="text-2xl font-semibold mb-3">Concerned about poor delivery services</h2>
     </div>
-    <div class="flex bg-indigo-100 p-8 rounded-md gap-10 items-center">
+    <div class="grid lg:grid-cols-2 bg-indigo-100 p-8 rounded-md gap-10 items-center">
         <div class="flex-1">
             <p class="text-white font-normal bg-gray-400 px-3">Example : Competitive flower shop website</p>
             <img class="mr-auto" src="{{ '/assets/images/painpoint_1.png' | relative_url }}">
@@ -78,7 +78,7 @@ permalink: /work/
         <h3 class="text-lg text-indigo-500 font-medium mb-2">Pain point 2</h3>
         <h2 class="text-2xl font-semibold mb-3">Required detailed information for products</h2>
     </div>
-    <div class="flex bg-indigo-100 p-8 rounded-md gap-10 items-center">
+    <div class="grid lg:grid-cols-2 mx-auto bg-indigo-100 p-8 rounded-md gap-10 items-center">
         <div class="flex-1">
             <p class="text-white font-normal bg-gray-400 px-3">Example : Competitive flower shop website</p>
             <img class="mr-auto" src="{{ '/assets/images/painpoint_2.png' | relative_url }}">
@@ -96,7 +96,7 @@ permalink: /work/
         <h3 class="text-lg text-indigo-500 font-medium mb-2">Pain point 3</h3>
         <h2 class="text-2xl font-semibold mb-3">Overwhelming with options</h2>
     </div>
-    <div class="flex bg-indigo-100 p-8 rounded-md gap-10 items-center">
+    <div class="grid lg:grid-cols-2 mx-auto bg-indigo-100 p-8 rounded-md gap-10 items-center">
         <div class="flex-1">
             <p class="text-white font-normal bg-gray-400 px-3">Example : Competitive flower shop website</p>
             <img class="mr-auto" src="{{ '/assets/images/painpoint_3.png' | relative_url }}">
@@ -126,66 +126,52 @@ permalink: /work/
         <p class="text-zinc-500">Modifying the current flow to the proposed user flows can offer users a more enjoyable journey when purchasing what they need. A user's journey may conclude swiftly if they can't find what they need, but a contented user is likely to return whenever they have future requirements.</p>
     </div>
 </div>
-
-<div class="container flex flex-col mx-auto bg-indigo-100 p-8 rounded-md">
-    <div class="text-xl font-semibold mb-8">
-        <h3>Current user flow</h3>
-    </div>
-    <div class="flex flex-row justify-between">
-        <div class="flex items-center flex-1 flex-1 text-center bg-white p-2 rounded-md text-base font-semibold">Browse for flower products</div>
-        <span class="right-arrow my-auto mr-[7px] ml-[45px]"></span>
-        <div class="flex items-center flex-1 flex-1 text-center bg-white p-2 rounded-md text-base font-semibold">Select the product<br/>Proceed to checkout</div>
-        <span class="right-arrow my-auto mr-[7px] ml-[45px]"></span>
-        <div class="flex items-center flex-1 flex-1 text-center bg-white p-2 rounded-md text-base font-semibold">Required to sign in or sign up</div>
-        <span class="right-arrow my-auto mr-[7px] ml-[45px]"></span>
-        <div class="flex items-center flex-1 flex-1 text-center bg-white p-2 rounded-md text-base font-semibold">Fill all information to process checkout</div>
-        <span class="right-arrow my-auto mr-[7px] ml-[45px]"></span>
-        <div class="flex items-center flex-1 flex-1 text-center text-white bg-indigo-500 p-3 rounded-md text-base font-semibold">Check delivery option</div>
-    </div>
-    <div class="flex flex-row justify-between items-center">
-        <p class="text-red-600">* User needs flower delivery for the specific time and date.</p>
-        <div class="flex flex-row items-center mr-[56px]">
-            <span class="down-arrow red-arrow mt-[50px] mr-[7px]"></span>
+<div class="container mx-auto">
+    <div class="flex flex-wrap mx-auto bg-indigo-100 rounded-md p-8 justify-around">
+        <div class="flex flex-col items-center">
+            <h3 class="text-xl font-semibold mb-8">Current user flow</h3>
+            <div class="w-[300px] items-center text-center bg-white p-2 rounded-md text-base font-semibold">Browse for flower products</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow.svg' | relative_url }}"/>
+            <div class="w-[300px] items-center text-center bg-white p-2 rounded-md text-base font-semibold">Select the product /<br/>Proceed to checkout</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow.svg' | relative_url }}"/>
+            <div class="w-[300px] items-center text-center bg-white p-2 rounded-md text-base font-semibold">Required to sign in or sign up</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow.svg' | relative_url }}"/>
+            <div class="w-[300px] items-center text-center bg-white p-2 rounded-md text-base font-semibold">Fill all information to process checkout</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow.svg' | relative_url }}"/>
+            <div class="w-[300px] items-center text-center text-white bg-indigo-500 p-3 rounded-md text-base font-semibold">Check delivery option</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow_red.svg' | relative_url }}"/>
             <p class="text-red-600 font-semibold">Fail</p>
+                <div class="bg-red-100 p-4 rounded-md w-[350px] mt-4 ">
+                    <p class="text-zinc-500 font-base w-[350px]">Users are frustrated to come too far to find out they can not order the product for delivery.</p>
+                </div>
         </div>
-    </div>
-    <div class="text-right mt-2 font-semibold text-zinc-500">Users are frustrated to come too far to find out<br/>they can not order the product for delivery.
-    </div>
-    <div class="border-b-2 w-full border-zinc-500 my-12"></div>
-    <div class="text-xl font-semibold mb-8">
-        <h3>Proposed user flow</h3>
-    </div>
-    <div class="flex flex-row justify-around">
-        <div class="flex items-center flex-1 text-center text-white bg-indigo-500 p-3 rounded-md text-base font-semibold">Check delivery option</div>
-        <div class="flex flex-col items-center justify-center -translate-y-[12px]">
-            <span class="text-green-600 font-semibold">Pass</span>
-            <span class="right-arrow green-arrow mr-[7px] ml-[45px]"></span>
-        </div>
-        <div class="flex items-center flex-1 text-center bg-white p-3 rounded-md text-base font-semibold">Browse for flower products</div>
-        <span class="right-arrow my-auto mr-[7px] ml-[45px]"></span>
-        <div class="flex items-center flex-1 text-center bg-white p-3 rounded-md text-base font-semibold">Select the product<br/>Proceed to checkout</div>
-        <span class="right-arrow my-auto mr-[7px] ml-[45px]"></span>
-        <div class="flex items-center flex-1 text-center bg-white p-3 rounded-md text-base font-semibold">Required to sign in or sign up</div>
-        <span class="right-arrow my-auto mr-[7px] ml-[45px]"></span>
-         <div class="flex items-center flex-1 text-center bg-white p-3 rounded-md text-base font-semibold">Fill all information to process checkout</div>
-    </div>
-    <div class="flex flex-row ml-[92px]">
-        <div class="flex flex-row items-center justify-center">
-            <span class="down-arrow long-arrow red-arrow mt-[150px] mr-2"></span>
-            <p class="text-red-600 font-semibold">Fail</p>
-        </div>
-        <div class="mt-[15px] ml-[60px]">
-            <div class="mt-2 font-semibold text-zinc-500">Users can end the user journey before going too far...
+        <div class="w-full border-zinc-500 border-t my-12 lg:my-2 lg:w-0 lg:border-l"></div>
+        <div class="flex flex-col items-center">
+            <h3 class="text-xl font-semibold mb-8">Proposed user flow</h3>
+            <div class="w-[300px] items-center text-center text-white bg-indigo-500 p-3 rounded-md text-base font-semibold">Check delivery option</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow_green.svg' | relative_url }}"/>
+            <p class="text-green-600 font-semibold mb-2">Pass</p>
+            <div class="w-[300px] items-center text-center bg-white p-2 rounded-md text-base font-semibold">Browse for flower products</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow.svg' | relative_url }}"/>
+            <div class="w-[300px] items-center text-center bg-white p-2 rounded-md text-base font-semibold">Select the product /<br/>Proceed to checkout</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow.svg' | relative_url }}"/>
+            <div class="w-[300px] items-center text-center bg-white p-2 rounded-md text-base font-semibold">Required to sign in or sign up</div>
+            <img class="mx-auto p-2" src="{{ '/assets/images/downarrow.svg' | relative_url }}"/>
+            <div class="w-[300px] items-center text-center bg-white p-2 rounded-md text-base font-semibold">Fill all information to process checkout</div>
+            <div class="bg-red-100 p-4 rounded-md w-[350px] mt-8 mb-4">
+                <p class="text-red-600 font-semibold">When it fails:</p>
+                <p class="text-zinc-500 font-base mb-2">New user flow allows users can end the user journey before going too far if...</p>
+                <ul class="text-zinc-500 list-disc list-inside">
+                <li>They can not find the date/time for flower delivery</li>
+                <li>Delivery fee doesn’t meet their expectation</li>
+                </ul>
             </div>
-            <ul class="text-zinc-500 list-disc list-inside mt-3">
-                <li class="mb-3">If they can not find the date/time for flower delivery.</li>
-                <li class="mb-3">If delivery fee doesn’t meet their expectation.</li>
-            </ul>
+            <div class="bg-yellow-100 p-4 rounded-md w-[350px]">
+                <p class="text-zinc-900 font-semibold">Open access to users who are still interested:</p>
+                <p class="text-zinc-500 font-base">Users who couldn’t find available delivery still can choose <span class="underline font-semibold">“Just for browsing”</span> option to browse the app.</p>
+            </div>
         </div>
     </div>
-     <div class="bg-yellow-200 p-3 rounded-md text-base font-semibold mt-3 text-center">
-     Users who couldn’t find available delivery still can choose  “<span class="underline">Just for browsing</span>” option to browse the app.
-     </div>
 </div>
 
 <div class="container mx-auto my-12 text-zinc-900">
@@ -195,21 +181,23 @@ permalink: /work/
     </div>
 </div>
 
-<div class="container flex flex-row mx-auto bg-indigo-100 p-8 rounded-md gap-x-8">
-    <div class="bg-white p-8 rounded-md flex-1">
-        <img class="mx-auto border border-zinc-400 mb-8" src="{{ '/assets/images/solution2_image1.png' | relative_url }}">
-        <h3 class="text-xl font-semibold mb-2">Product images</h3>
-        <p class="text-zinc-500">Providing ample recent, high-quality product images, including different angles and close-ups, helps users select the desired item easily.</p>
-    </div>
-    <div class="bg-white p-8 rounded-md flex-1">
-        <img class="mx-auto border border-zinc-400 mb-8" src="{{ '/assets/images/solution2_image2.png' | relative_url }}">
-        <h3 class="text-xl font-semibold mb-2">Measurement</h3>
-        <p class="text-zinc-500">Offering product size details, including the number of stems included, will assist users.</p>
-    </div>
-    <div class="bg-white p-8 rounded-md flex-1">
-        <img class="mx-auto border border-zinc-400 mb-8" src="{{ '/assets/images/solution2_image3.png' | relative_url }}">
-        <h3 class="text-xl font-semibold mb-2">Product description</h3>
-        <p class="text-zinc-500">Inform users about the specific flowers included in their purchase. Enable users to save their favourite flowers to their account for easy access in future purchases.</p>
+<div class="container mx-auto">
+    <div class="grid lg:grid-cols-3 bg-indigo-100 p-8 rounded-md gap-8">
+        <div class="bg-white p-8 rounded-md flex-1">
+            <img class="mx-auto border border-zinc-400 mb-8" src="{{ '/assets/images/solution2_image1.png' | relative_url }}">
+            <h3 class="text-xl font-semibold mb-2">Product images</h3>
+            <p class="text-zinc-500">Providing ample recent, high-quality product images, including different angles and close-ups, helps users select the desired item easily.</p>
+        </div>
+        <div class="bg-white p-8 rounded-md flex-1">
+            <img class="mx-auto border border-zinc-400 mb-8" src="{{ '/assets/images/solution2_image2.png' | relative_url }}">
+            <h3 class="text-xl font-semibold mb-2">Measurement</h3>
+            <p class="text-zinc-500">Offering product size details, including the number of stems included, will assist users.</p>
+        </div>
+        <div class="bg-white p-8 rounded-md flex-1">
+            <img class="mx-auto border border-zinc-400 mb-8" src="{{ '/assets/images/solution2_image3.png' | relative_url }}">
+            <h3 class="text-xl font-semibold mb-2">Product description</h3>
+            <p class="text-zinc-500">Inform users about the specific flowers included in their purchase. Enable users to save their favourite flowers to their account for easy access in future purchases.</p>
+        </div>
     </div>
 </div>
 
@@ -221,43 +209,45 @@ permalink: /work/
     </div>
 </div>
 
-<div class="container flex flex-col mx-auto bg-indigo-100 p-8 rounded-md gap-10">
-    <div class="bg-white p-8 rounded-md">
-        <h3 class="text-xl font-semibold mb-2">1. Start with clean and intuitive navigation -> Filtering specific preference </h3>
-        <p class="text-zinc-500">The primary navigation streamlines product types into a small number of options, enabling users to easily and swiftly filter specific requirements using convenient filtering options.</p>
-        <div class="flex mt-7 items-center">
-            <div class="flex flex-1 justify-center"><img class="border border-zinc-400" src="{{ '/assets/images/solution3_image1.png' | relative_url }}"/></div>
-            <div class="flex flex-col items-center max-w-[247px] px-2">
-                <img class="w-full" src="{{ '/assets/images/longarrow.svg' | relative_url }}"/>
-                <p class="text-zinc-500 mt-3"><span class="font-semibold">Example:</span><br/>If user is looking for flower basket, click the flower basket category and then filtering options as they needed.</p>
-            </div>
-            <div class="flex flex-1 justify-center"><img class="border border-zinc-400" src="{{ '/assets/images/solution3_image2.png' | relative_url }}"/></div>
-        </div>
-    </div>
-    <div class="bg-white p-8 rounded-md flex flex-row justify-between">
-        <div>
-            <h3 class="text-xl font-semibold mb-2">2. Recall the user's product history</h3>
-            <p class="text-zinc-500">Offer users recently viewed items and recommend products based on their data, enhancing their flower-searching journey on the product.</p>
-            <img class="mx-auto border border-zinc-400 mt-7" src="{{ '/assets/images/solution3_image3.png' | relative_url }}">
-        </div>
-        <div class="border-r-2 border-zinc-500 mx-24"></div>
-        <div>
-            <h3 class="text-xl font-semibold mb-2">3. Effortless direct product search</h3>
-            <p class="text-zinc-500">Users who already know what they want can use a direct search to find the product, and we can also offer their search history as a reminder.</p>
-            <img class="mx-auto border border-zinc-400 mt-7" src="{{ '/assets/images/solution3_image4.png' | relative_url }}">
+<div class="container mx-auto">
+    <div class="bg-indigo-100 p-8 rounded-md">
+        <div class="bg-white p-8 rounded-md mb-8">
+            <h3 class="text-xl font-semibold mb-12">1. Start with clean and intuitive navigation -> Filtering specific preference</h3>
+            <div class="grid md:grid-cols-2 gap-12 mt-6">
+                <div class="flex-col">
+                    <img class="mx-auto border border-zinc-400" src="{{ '/assets/images/solution3_image1.png' | relative_url }}"/>
+                    <p class="text-zinc-500 mt-6"><span class="font-semibold">Step.1</span><br/>The primary navigation streamlines product types into a small number of options.</p>
+                </div>
+                <div class="flex-col items-center">
+                    <img class="mx-auto border border-zinc-400" src="{{ '/assets/images/solution3_image2.png' | relative_url }}"/>
+                    <p class="text-zinc-500 mt-6"><span class="font-semibold">Step.2</span><br/>Enabling users to easily and swiftly filter specific requirements using convenient filtering options.</p>
+                </div>
             </div>
         </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-md">
+                <h3 class="text-xl font-semibold mb-2">2. Recall the user's product history</h3>
+                <p class="text-zinc-500">Offer users recently viewed items and recommend products based on their data, enhancing their flower-searching journey on the product.</p>
+                <img class="mx-auto border border-zinc-400 mt-12" src="{{ '/assets/images/solution3_image3.png' | relative_url }}"/>
+            </div>
+            <div class="bg-white p-8 rounded-md">
+                <h3 class="text-xl font-semibold mb-2">3. Effortless direct product search</h3>
+                <p class="text-zinc-500">Users who already know what they want can use a direct search to find the product, and we can also offer their search history as a reminder.</p>
+                <img class="mx-auto border border-zinc-400 mt-12" src="{{ '/assets/images/solution3_image4.png' | relative_url }}"/>
+            </div>
+        </div>
     </div>
+</div>
 
 <div class="container mx-auto my-12 text-zinc-900 border-y pb-12">
-    <div class="flex flex-row justify-between pt-12">
+    <div class="grid sm:grid-cols-2 justify-between pt-12">
         <h2 class="text-4xl font-extrabold mb-3">Final design</h2>
-        <div class="text-indigo-500 font-normal underline text-right leading-8">
+        <div class="text-indigo-500 font-normal underline text-left sm:text-right leading-8">
             <a class="block" href="https://www.figma.com/proto/RKoND183SbjEB2q8SfRBhM/Flower-Catalogue-App?type=design&node-id=314-3795&t=m1TFZxpo2OhIpWxs-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=314%3A3795&mode=design&fuid=1113262704519520089" target="_blank">High fidelity prototype link</a>
             <a class="block" href="https://www.figma.com/file/RKoND183SbjEB2q8SfRBhM/Flower-Catalogue-App?type=design&node-id=0%3A1&mode=design&t=sx3isZXinP8TC2LU-1" target="_blank">Working file link</a>
         </div>
     </div>
-    <img class="mx-auto mt-7" src="{{ '/assets/images/prototype.gif' | relative_url }}">
+     <img class="mx-auto mt-7" src="{{ '/assets/images/prototype.gif' | relative_url }}">
 </div>
 
 <div class="container mx-auto my-12 text-zinc-900 border-b pb-12">
@@ -267,12 +257,12 @@ permalink: /work/
 
 <div class="container mx-auto my-12 text-zinc-900 pb-12">
     <h2 class="text-4xl font-extrabold mb-9">Next steps</h2>
-    <div class="grid grid-cols-2 divide-x">
+    <div class="grid sm:grid-cols-2 gap-10 md:gap-20">
         <div>
             <h2 class="text-2xl font-semibold mb-3">Never stop learning</h2>
             <p class="text-zinc-500">Need to look back into least prioritized feedback and see what I can do about for the next step.</p>
         </div>
-        <div class="pl-4">
+        <div>
             <h2 class="text-2xl font-semibold mb-3">Embrace the journey</h2>
             <p class="text-zinc-500">Getting feedback through the time and improve things as per feedback.</p>
         </div>
