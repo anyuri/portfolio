@@ -21,7 +21,7 @@ permalink: /about/
             <h5 class="font-semibold text-xl">Sr. Production Artist</h5>
             <h5 class="font-normal text-xl mb-5">Critical Mass</h5>
             <p class="font-normal text-base text-zinc-500 ">Feb 2021 - Oct 2022</p>
-            <p class="font-normal text-base text-zinc-500 ">1 year8 months </p>
+            <p class="font-normal text-base text-zinc-500 ">1 year 8 months </p>
             <p class="font-normal text-base text-zinc-500 ">Full time</p>
         </div>
         <div>
